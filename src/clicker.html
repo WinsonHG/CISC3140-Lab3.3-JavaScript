@@ -28,7 +28,6 @@
     <script>
 
         var counter = 1;
-        var fishImageCount = 0;
 
         function clickedImage(){
 
@@ -40,18 +39,9 @@
 
         function pictureChange(){
 
-            var Image_Id = document.getElementById('fish');
-            if (Image_Id.src.match("https://upload.wikimedia.org/wikipedia/commons/a/a5/Predator_marvin.jpg")) {
-                Image_Id.src = "https://i.pinimg.com/originals/01/1b/38/011b387aff90b672fb11dd680380c33b.jpg";
-                Image_Id.src = "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/rose-red-betta-fish-from-the-illuminated-collection-scott-wallace-digital-designs.jpg";
-            }
-            else {
-                Image_Id.src = "https://upload.wikimedia.org/wikipedia/commons/a/a5/Predator_marvin.jpg";
-            }
-        }     
-        
+            document.getElementById("fish").src="https://i.pinimg.com/originals/01/1b/38/011b387aff90b672fb11dd680380c33b.jpg";
 
-
+        }
 
 
 
