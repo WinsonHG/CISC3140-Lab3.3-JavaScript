@@ -3,4 +3,11 @@ This project was made to practice JavaScript Event Listeners
 
 ## Description
 
-This program counts the amount of times the user clicked the image, there is also an button that will change the picture on click.
+This program will track the amount of times the user clicked the image of the fish.
+
+## Features
+
+* Interactive click counter
+* Button to change image
+* User input 
+* Alert box
