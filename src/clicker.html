@@ -18,11 +18,11 @@
             .center-block {
                 margin: auto;
                 display: block;
-}
-            </style>
-    </head>
+            }
+        </style>
+</head>
 
-    <body style="background-color:lightsteelblue;">
+<body style="background-color:lightsteelblue;">
 
     <h1>Click the fish!</h1>
 
@@ -32,12 +32,11 @@
 
     <p><input type="button" class = "button" id="button" value="Click for different fish!" onclick="pictureChange()"></p>
 
-    <input id="userInput" type="number" placeholder="Enter number" class = "center-block">
+    <input id="userInput" type="number" placeholder="Enter clicks to be added" class = "center-block">
 
     <button onclick="getInputFromTextBox()" class ="center-block" >Submit</button>
 
-
-    </body>
+</body>
 
 </html>
 
@@ -64,6 +63,8 @@
         function getInputFromTextBox() {
 
             var input = document.getElementById("userInput").value;
+
+            alert("Adding " + input + " to next click!");
 
             counter += parseInt(input) - 1;
 
